@@ -5,11 +5,11 @@
       "connector": "bookshelf",
       "settings": {
         "client": "postgres",
-        "host": "${process.env.DATABASE_HOST || '127.0.0.1'}",
-        "port": "${process.env.DATABASE_PORT || 27017}",
-        "database": "${process.env.DATABASE_NAME || 'strapi'}",
-        "username": "${process.env.DATABASE_USERNAME || ''}",
-        "password": "${process.env.DATABASE_PASSWORD || ''}"
+        "host": "${process.env.DATABASE_HOST || 'ec2-54-246-90-10.eu-west-1.compute.amazonaws.com'}",
+        "port": "${process.env.DATABASE_PORT || 5432}",
+        "database": "${process.env.DATABASE_NAME || 'demendd5sm61rm'}",
+        "username": "${process.env.DATABASE_USERNAME || 'yldsouedecusem'}",
+        "password": "${process.env.DATABASE_PASSWORD || '039e5bcf839fe028cfa77a7b71c601efca4ee17a979a6cc103b13966b88d1e4e'}"
       },
       "options": {}
     }
